@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(milky-way.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    margin-left: 8rem;
+    background-color: rgba(255, 255, 255, 0.471);
+    width: 100rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content img{
+    margin-left: 41rem;
+}
+.content .his{
+    margin-left: 41rem;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.56);
+    width: 213px;
+}
+.content .his p{
+    font-size: 20px;
+}
+.content a{
+    text-decoration: none;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.835);
+}
