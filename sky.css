@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+p{
+    color: white;
+}
+.topic h2{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+h1,h2{
+    color: white;
+}
+.content .sticky{
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: auto;
+}
+.content .sticky a{
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px;
+    text-decoration: none;
+    width: 50px;
+}
+/* ชี้เมาส์แล้วกดได้ */
+.content .sticky:hover a{
+    display: block;
+    margin-left: 49%;
+}
+.content{
+    display: grid;
+    grid-row: 1;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+.content img{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.content p{
+    width: 50rem;
+    margin-left: 35rem;
+
+    
+}
+.topic{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.topic h1{
+    font-size: 3rem;
+}
